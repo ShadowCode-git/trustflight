@@ -1,0 +1,84 @@
+/* Since there was no design I used just the most simple CSS all in one file */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+}
+
+label {
+    margin: 10px;
+}
+p {
+    font-size: 18px;
+}
+input {
+    margin: 10px;
+}
+textarea {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 2px;
+    border-radius: solid 1px rgba(0,0,0,0.2);
+    resize: none;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    margin: 10px;
+    height: 30px;
+    padding: 2px 20px;
+    cursor: pointer;
+}
+
+.body {
+    width: 80%;
+    margin: 10px auto;
+    
+}
+.center {
+    margin: auto !important;
+}
+
+.task-container{
+    border: solid 1px rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.hide {
+    display: none !important;
+}
+
+#admin-panel{
+    display: flex;
+}
+
+#remove{
+    width: 30px;
+    padding: 0px;
+    background-color: rgb(109, 33, 33);
+    float: right;
+    position: unset;
+}
+
+
+ /* Responsive  */
+ @media only screen and (max-width: 800px) {
+
+   
+    .body {
+        width: 98%;
+    }
+    textarea {
+        width: 90%;
+    }
+    #admin-panel {
+        display: block;
+    }
+  }

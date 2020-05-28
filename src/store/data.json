@@ -1,0 +1,36 @@
+{
+    "tasks" : 
+    [
+        {
+            "text": "Check that the bolts are screwed",
+            "personID": 1,
+            "id": 1,
+            "done": false
+        },
+        {
+            "text": "Check the tyres",
+            "personID": 1,
+            "id": 2,
+            "done": false
+        },
+        {
+            "text": "Check the LED in the cabin",
+            "personID": 2,
+            "id": 3,
+            "done": false
+        }
+    ],
+    "engineers" : 
+    [
+        {
+            "id": 1,
+            "name": "John Watson",
+            "role": "Tyre checker"
+        },
+        {
+            "id": 2,
+            "name": "Sherlock Holmes",
+            "role": "Cockpit internal investigator"
+        }
+    ]
+}
